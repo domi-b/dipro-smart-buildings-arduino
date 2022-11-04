@@ -3,7 +3,6 @@
 // login.h is excluded from the repository as it defines username and password for the wifi
 #include "login.h"
 
-char ssid[] = "hslu";
 WiFiClient client;
 
 void sendSensorData(String sensorId, float value) {
